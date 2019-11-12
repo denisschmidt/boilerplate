@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": "> 0.25%, not dead"
+      }
+    ]
+  ],
+  "plugins": [
+    ["babel-plugin-styled-components", { "ssr": false, "displayName": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "babel-plugin-ramda",
+    "react-hot-loader/babel",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-optional-chaining",
+    ["@babel/plugin-proposal-pipeline-operator", { "proposal": "fsharp" }],
+    "@babel/plugin-proposal-nullish-coalescing-operator"
+  ]
+}

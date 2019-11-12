@@ -1,0 +1,38 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+*.log
+
+# dependencies
+node_modules
+
+.cache
+
+dist
+
+# testing
+coverage
+
+# production
+build
+.yarn-cache
+yarn-lock
+
+# misc
+.DS_Store
+npm-debug.log
+
+# idea
+.idea
+.idea/**
+*.iml
+gradle/wrapper/**
+gradlew
+gradlew.bat
+out/
+.gradle/**
+target/
+.idea_modules/
+
+# VS Code
+.vscode/
+
+yarn.lock
